@@ -2,8 +2,11 @@
   "name": "ttt",
   "version": "0.0.1",
   "authors": [
-    "Arthur Santana <arthur@loja2.com.br>"
+    "Arthur Santana <rockslave@gmail.com>"
   ],
-  "license": "GPL",
-  "private": true
+  "license": "Affero GPL",
+  "private": true,
+  "dependencies": {
+     "angular-route": "~1.2.x"
+  }
 }
