@@ -8,7 +8,7 @@ Online: www.livechan.com:3000
 
 Dependencies
 ------------
-Usual javascript suspects: [https://github.com/bower/bower](bower), [https://github.com/npm/npm](npm)
+Usual javascript suspects: [npm](https://github.com/npm/npm) and [bower](https://github.com/bower/bower).
 
 Building
 -----
