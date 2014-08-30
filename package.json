@@ -1,0 +1,17 @@
+{
+  "name": "ttt",
+  "version": "0.0.1",
+  "description": "Bim!",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.8.6",
+    "socket.io": "^1.0.6",
+    "node-sass-cli": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Santana",
+  "license": "Affero GPL"
+}

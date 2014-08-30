@@ -1,0 +1,79 @@
+$bgcolor: white;
+$hvcolor: lightyellow; // hover cell color
+$border: black;
+$fnfam: "Open Sans"; // font family
+$syfam: "Verdana"; // symbols font family
+$fnsize: 22px;
+$sysize: 72px; // symbol font size
+$ftsize: 14px; // footer font size
+$cell_size: 100px;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background: $bgcolor;
+   font-family: $fnfam;
+   font-weight: 300;
+   font-size: $fnsize;
+}
+
+#header{
+   margin: auto;
+   padding: 0;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   width: $cell_size * 3;
+}
+
+#ttt_map {
+   font-weight: 700;
+   font-family: $syfam;
+   font-size: $sysize;
+   margin: auto;
+   overflow: hidden;
+   width: $cell_size * 3;
+   height: $cell_size * 3;
+
+   .row {
+      width: $cell_size * 3;
+      height: $cell_size;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+      div {
+         vertical-align: top;
+         margin: 0;
+         padding: 0;
+         width: $cell_size;
+         height: $cell_size;
+         text-align: center;
+         display: inline-block;
+         overflow: hidden;
+      }
+
+      div.middle {
+         border-left: 1px solid $border;
+         border-right: 1px solid $border;
+      }
+
+      div:hover {
+         background: $hvcolor;
+      }
+   }
+
+   .row.middle {
+      border-top: 1px solid $border;
+      border-bottom: 1px solid $border;
+   }
+}
+
+#footer {
+   font-size: $ftsize;
+   text-align: center;
+   margin-top: 1em;
+}

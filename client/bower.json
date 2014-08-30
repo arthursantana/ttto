@@ -1,0 +1,9 @@
+{
+  "name": "ttt",
+  "version": "0.0.1",
+  "authors": [
+    "Arthur Santana <arthur@loja2.com.br>"
+  ],
+  "license": "GPL",
+  "private": true
+}
