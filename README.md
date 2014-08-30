@@ -12,10 +12,14 @@ Usual javascript suspects: [npm](https://github.com/npm/npm) and [bower](https:/
 
 Building
 -----
+```bash
 make
+```
 
 Running
 ----
+```bash
 make run
+```
 
 That's it!
